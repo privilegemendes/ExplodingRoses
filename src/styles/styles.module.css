@@ -50,38 +50,39 @@
 }
 
 .footer {
-  /*background: hsla(200deg, 100%, 85%, 0.1);*/
-  /*background: linear-gradient(0deg, hsla(200deg, 100%, 85%, 0), hsla(200deg, 100%, 85%, 0.1));*/
-  position: relative;
-  transition: background 350ms ease 0s;
-  width: 100%;
+    /*background: hsla(200deg, 100%, 85%, 0.1);*/
+    /*background: linear-gradient(0deg, hsla(200deg, 100%, 85%, 0), hsla(200deg, 100%, 85%, 0.1));*/
+    position: relative;
+    transition: background 350ms ease 0s;
+    width: 100%;
+    color: #fff;
 
 }
 
 .footerContainer {
-  position: relative;
-  max-width: 1100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px;
-  margin: auto auto 0;
+    position: relative;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: auto auto 0;
 }
 
 .footerHeader {
-  display: flex;
-  flex-direction: column;
-  -moz-box-pack: justify;
-  justify-content: space-between;
-  align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .copyright {
-  order: 1;
-  flex: 1 1 auto;
-  font-size: 12px;
-  padding-top: 16px;
+    order: 1;
+    flex: 1 1 auto;
+    font-size: 12px;
+    padding-top: 16px;
 }
 
 .copyrightBottom {
@@ -105,12 +106,13 @@
 
 .settings a,
 .social a {
-  cursor: pointer;
-  font-size: 2em;
-  display: inline-flex;
-  padding: 0.25em;
-  margin-right: 1vw;
-  transition: color 250ms ease-out;
+    cursor: pointer;
+    font-size: 2em;
+    display: inline-flex;
+    padding: 0.25em;
+    margin-right: 1vw;
+    transition: color 250ms ease-out;
+
 }
 
 .settings a:last-of-type,
@@ -127,8 +129,12 @@
   color: #2795e9;
 }
 
+.twitter, .github, .mastodon,.zhihu, .youtube, .linkedin {
+  color: #fff;
+}
+
 .twitter:hover {
-  color: #2795e9;
+  color: #2ca4ff;
 }
 
 .mastodon:hover {
@@ -140,7 +146,7 @@
 }
 
 .github:hover {
-  color: #c9510c;
+  color: #ff0505;
 }
 
 .youtube:hover {
@@ -148,7 +154,7 @@
 }
 
 .linkedin:hover {
-  color: #0077b5;
+  color: #02a2f8;
 }
 
 @media only screen and (max-width: 725px) {
