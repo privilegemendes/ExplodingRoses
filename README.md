@@ -1,16 +1,19 @@
 # Three.js Project with React and Tesselation
 This is a Three.js project built with React and Tesselation, inspired by Sarah Drasner's project in Vue.js. It uses the react-three-fiber library to integrate Three.js with React and provides a declarative way to create 3D scenes with React components.
 
+## Demo
+You can view a live demo of the project here: https://exploding-roses.vercel.app/
+
 ## Getting Started
 To run the project, first clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/react-threejs-tesselation.git
+git clone https://github.com/privilegemendes/ExplodingRoses.git
 ```
 Then, install the dependencies:
 
 ```bash
-cd react-threejs-tesselation
+cd ExplodingRoses
 npm install
 ```
 Finally, start the development server:
