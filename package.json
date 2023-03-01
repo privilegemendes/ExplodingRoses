@@ -2,7 +2,17 @@
   "name": "exploding-roses",
   "version": "0.1.0",
   "private": true,
-  "author": "Privilege Mendes <prrivilege@lege.dev>",
+  "author": {
+    "name": "Privilege Mendes",
+    "email": "privilege@lege.dev",
+    "url": "https://lege.dev"
+  },
+  "keywords": [
+    "threejs",
+    "tesselation",
+    "modifiers"
+  ],
+  "homepage": "https://github.com/privilegemendes/ExplodingRoses",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "@react-three/drei": "^9.56.10",
