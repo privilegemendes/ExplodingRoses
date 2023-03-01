@@ -5,7 +5,6 @@ import { Vector3 } from "three";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { gsap, Sine } from "gsap";
 import styled from "styled-components";
-import { v4 as uuid } from "uuid";
 
 const CanvasContainer = styled.div `
     width: 100vw;
@@ -199,7 +198,6 @@ const AnimatedMesh: FC<Props> = (
 				fragmentShader={fragmentShader}
 				vertexShader={vertexShader}
 				uniforms={uniforms}
-				key={uuid()}
 			/>
 		</mesh>
 	);

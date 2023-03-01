@@ -14,6 +14,6 @@ export default siteConfig({
 
   // social usernames (optional)
   twitter: 'privilegemendes',
-  github: 'privilegemendes',
+  github: 'privilegemendes/ExplodingRoses',
   linkedin: 'privilegemendes',
 })
